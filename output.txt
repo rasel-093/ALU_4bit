@@ -1,0 +1,21 @@
+Time:                    0 | A=0101, B=0010, op_sel=000 | Result=0111, CarryOut=0, ZeroFlag=0
+Time:                10000 | A=1100, B=0100, op_sel=000 | Result=0000, CarryOut=1, ZeroFlag=1
+Time:                20000 | A=1111, B=0001, op_sel=000 | Result=0000, CarryOut=1, ZeroFlag=1
+Time:                30000 | A=1000, B=0011, op_sel=001 | Result=0101, CarryOut=1, ZeroFlag=0
+Time:                40000 | A=0101, B=1000, op_sel=001 | Result=1101, CarryOut=0, ZeroFlag=0
+Time:                50000 | A=0110, B=0110, op_sel=001 | Result=0000, CarryOut=1, ZeroFlag=1
+Time:                60000 | A=1100, B=1010, op_sel=010 | Result=1000, CarryOut=0, ZeroFlag=0
+Time:                70000 | A=0101, B=1010, op_sel=010 | Result=0000, CarryOut=0, ZeroFlag=1
+Time:                80000 | A=1100, B=1010, op_sel=011 | Result=1110, CarryOut=0, ZeroFlag=0
+Time:                90000 | A=0000, B=0000, op_sel=011 | Result=0000, CarryOut=0, ZeroFlag=1
+Time:               100000 | A=1100, B=1010, op_sel=100 | Result=0110, CarryOut=0, ZeroFlag=0
+Time:               110000 | A=0110, B=0110, op_sel=100 | Result=0000, CarryOut=0, ZeroFlag=1
+Time:               120000 | A=1010, B=xxxx, op_sel=101 | Result=0101, CarryOut=0, ZeroFlag=0
+Time:               130000 | A=1111, B=xxxx, op_sel=101 | Result=0000, CarryOut=0, ZeroFlag=1
+Time:               140000 | A=0011, B=0100, op_sel=000 | Result=0111, CarryOut=0, ZeroFlag=0
+Time:               150000 | A=0100, B=0011, op_sel=001 | Result=0001, CarryOut=1, ZeroFlag=0
+Time:               160000 | A=1111, B=1111, op_sel=010 | Result=1111, CarryOut=0, ZeroFlag=0
+Time:               170000 | A=0000, B=1111, op_sel=011 | Result=1111, CarryOut=0, ZeroFlag=0
+Time:               180000 | A=0101, B=1010, op_sel=100 | Result=1111, CarryOut=0, ZeroFlag=0
+$finish called from file "testbench.sv", line 84.
+$finish at simulation time               190000
